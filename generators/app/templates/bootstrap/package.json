@@ -1,0 +1,35 @@
+{
+  "name": "<%= module %>>",
+  "version": "1.0.0",
+  "main": "./build/index.js",
+  "repository": "git@github.com:/<%= module %>.git",
+  "author": "lamartire <lamartire@gmail.com>",
+  "license": "MIT",
+  "scripts": {
+    "build": "NODE_ENV=production ./node_modules/babel-cli/bin/babel.js src/index.js -d build/",
+    "test": "./node_modules/jest/bin/jest.js"
+  },
+  "devDependencies": {
+    "babel-cli": "^6.26.0",
+    "babel-core": "^6.26.0",
+    "babel-eslint": "^8.2.3",
+    "babel-loader": "^7.1.4",
+    "babel-plugin-transform-class-properties": "^6.24.1",
+    "babel-plugin-transform-decorators-legacy": "^1.3.4",
+    "babel-plugin-transform-object-rest-spread": "^6.26.0",
+    "babel-plugin-transform-runtime": "^6.23.0",
+    "babel-preset-env": "^1.6.1",
+    "eslint": "^4.19.1",
+    "eslint-config-prettier": "^2.9.0",
+    "eslint-config-prettier-standard": "^1.0.1",
+    "eslint-config-standard": "^11.0.0",
+    "eslint-loader": "^2.0.0",
+    "eslint-plugin-import": "^2.11.0",
+    "eslint-plugin-node": "^6.0.1",
+    "eslint-plugin-prettier": "^2.6.0",
+    "eslint-plugin-promise": "^3.7.0",
+    "eslint-plugin-standard": "^3.0.1",
+    "jest": "^22.4.3",
+    "prettier": "^1.12.1"
+  }
+}
