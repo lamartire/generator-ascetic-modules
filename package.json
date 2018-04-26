@@ -72,6 +72,5 @@
     },
     "plugins": ["prettier"]
   },
-  "repository": "git@github.com:lamartire/generator-ascetic-modules.git",
-  "private": true
+  "repository": "git@github.com:lamartire/generator-ascetic-modules.git"
 }
