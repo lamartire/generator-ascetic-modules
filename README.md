@@ -1,6 +1,12 @@
 # generator-ascetic-modules [![NPM version][npm-image]][npm-url] [![Build Status][travis-image]][travis-url] [![Dependency Status][daviddm-image]][daviddm-url] [![Coverage percentage][coveralls-image]][coveralls-url]
 > 
 
+## ⚠️ This project deprecated
+
+This project was deprecated since `0.0.1` version. Fork it if you need additional features,
+or use my new project [sharec](http://github.com/lamartire/sharec) for stepless projec scaffolding
+and configuration management.
+
 ## Installation
 
 First, install [Yeoman](http://yeoman.io) and generator-ascetic-modules using [npm](https://www.npmjs.com/) (we assume you have pre-installed [node.js](https://nodejs.org/)).
